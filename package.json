@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "author": "mimimi",
   "description": "a node build image tool",
-  "main": "build/main/index.js",
-  "typings": "build/main/index.d.ts",
-  "module": "build/module/index.js",
+  "main": "build/main/gaialor.js",
+  "typings": "build/main/gaialor.d.ts",
+  "module": "build/module/gaialor.js",
   "repository": "https://github.com/mimimile/gaialor",
   "license": "MIT",
   "keywords": [
@@ -14,7 +14,7 @@
   ],
   "preferGlobal": true,
   "bin": {
-    "gaialor": "build/main/index.js"
+    "gaialor": "build/main/gaialor.js"
   },
   "scripts": {
     "info": "npm-scripts-info",
