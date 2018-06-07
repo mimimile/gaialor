@@ -1,6 +1,6 @@
 {
   "name": "gaia",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "a node build image tool",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
@@ -8,6 +8,10 @@
   "repository": "https://github.com/mimimile/gaia",
   "license": "MIT",
   "keywords": [],
+  "preferGlobal": true,
+  "bin": {
+    "gaia": "build/main/index.js"
+  },
   "scripts": {
     "info": "npm-scripts-info",
     "build": "run-s clean && run-p build:*",
@@ -52,7 +56,10 @@
     "node": ">=8.9"
   },
   "dependencies": {
-    "sha.js": "^2.4.11"
+    "colors": "^1.3.0",
+    "commander": "^2.15.1",
+    "sha.js": "^2.4.11",
+    "sharp": "^0.20.3"
   },
   "devDependencies": {
     "ava": "^1.0.0-beta.5.1",
