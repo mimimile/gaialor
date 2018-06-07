@@ -1,6 +1,6 @@
 {
   "name": "gaialor",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "author": "mimimi",
   "description": "a node build image tool",
   "main": "build/main/index.js",
@@ -40,8 +40,7 @@
     "reset": "git clean -dfx && git reset --hard && npm i",
     "clean": "trash build test",
     "all": "run-s reset test cov:check doc:html",
-    "prepare-release": "run-s all version doc:publish",
-    "preinstall": "node -e \"if(process.env.npm_execpath.indexOf('yarn') === -1) throw new Error('gaialor must be installed with Yarn: https://yarnpkg.com/')\""
+    "prepare-release": "run-s all version doc:publish"
   },
   "scripts-info": {
     "info": "Display information about the package scripts",
