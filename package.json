@@ -1,6 +1,6 @@
 {
   "name": "gaialor",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "mimimi",
   "description": "a node build image tool",
   "main": "build/main/gaialor.js",

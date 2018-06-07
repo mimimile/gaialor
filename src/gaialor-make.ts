@@ -19,7 +19,7 @@ program.parse(process.argv);
   const width = program.width || 100
   const height = program.height || 100
   const format = program.format || 'png'
-  const color = program.color || '#ffffff'
+  const color = program.color || 'ffffff'
 
   if (width && isNaN(+width)) {
     console.log(colors.red('Message: width error'))
