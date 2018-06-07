@@ -1,19 +1,19 @@
-# gaia
+# gaialor
 
 一个纯色图片生成器
 
-gaia --help
+gaialor --help
 ----------------------------------------------------
 ## usage
 ```
-gaia [--help] <command> [<args>]
+gaialor [--help] <command> [<args>]
 
 command:
   make: 制造图片
 
   --help 显示帮助信息
 ----------------------------------------------------
-usage: gaia make file_name [--help] [--width <width>] [--height <height>] [--format <format>]
+usage: gaialor make file_name [--help] [--width <width>] [--height <height>] [--format <format>]
 
 --width     生成图片的宽度 单位是px
 --height    生成图片的高度 单位是px

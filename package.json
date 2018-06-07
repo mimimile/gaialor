@@ -1,16 +1,20 @@
 {
-  "name": "gaia",
+  "name": "gaialor",
   "version": "0.0.1",
+  "author": "mimimi",
   "description": "a node build image tool",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
   "repository": "https://github.com/mimimile/gaia",
   "license": "MIT",
-  "keywords": [],
+  "keywords": [
+    "node",
+    "sharp"
+  ],
   "preferGlobal": true,
   "bin": {
-    "gaia": "build/main/index.js"
+    "gaialor": "build/main/index.js"
   },
   "scripts": {
     "info": "npm-scripts-info",
