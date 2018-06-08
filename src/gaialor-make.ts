@@ -51,5 +51,11 @@ program.parse(process.argv);
     .overlayWith(roundedCorners, { cutout: true })
     .toFormat(format)
     .toFile(`${program.args[0]}.${format}`)
+    .then(() => {
+      console.log(colors.green('Success'))
+    })
+    .catch(err => {
+      console.log(colors.red(err))
+    })
 
 })()
